@@ -7,4 +7,5 @@ $ip=$_SERVER['REMOTE_ADDR'];
 $created=date("Y-m-d H:i:s");
 $sql="INSERT INTO $table (product_id,type,ip,created) VALUES ('$product_id','$type','$ip','$created')";
 mysql_query($sql);
+// this is updated verions
 ?>
