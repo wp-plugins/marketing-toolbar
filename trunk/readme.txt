@@ -4,7 +4,7 @@ Donate Link: http://krishnabhattarai.com/payment
 Tags: Advertisement, Wordpress marketing
 Requires at least: 2.8
 Tested up to: 3.0.1
-Stable tag: 3.0.1
+Stable tag: 3.0.1.1
 
 Marketintg toolbar is a new way of wordpressing marketing.
 
