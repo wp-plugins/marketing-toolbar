@@ -5,7 +5,7 @@ Plugin URI: http://krishnabhattarai.com/plugin/marketing-toolbar/
 Description: Marketing Toolbar plugin developed by <a href="http://krishnabhattarai.com/">Krishna Bhattarai</a>
 Author: Krishna Bhattarai
 Author URI: http://krishnabhattarai.com
-Version: 2.0
+Version: 2.0.1
 */
 ?>
 <?php
