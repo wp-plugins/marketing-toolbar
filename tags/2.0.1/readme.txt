@@ -47,3 +47,5 @@ Its fully automated and professional.
 
 = 2.1 =
 Auto Upgrade featued is added for Previous toolbar plugin
+= 2.2 =
+Additional Security Added
