@@ -35,6 +35,18 @@ if ($wpdb->get_var("show tables like '" . $wpdb->rspro . "'") != $wpdb->rspro) {
 				PRIMARY KEY (`id`)
 				) ENGINE=MyISAM  DEFAULT CHARSET=latin1;";
 	$result = $wpdb->query($sql);
+@mysql_query("ALTER TABLE `".$wpdb->rspro."` ADD `product_link` varchar(80) NOT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `product_text` varchar(80) NOT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `product_color` varchar(20) NOT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `total_hits` int(10) DEFAULT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `vibration_time` int(10) DEFAULT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `vibration_number` int(10) DEFAULT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `vibration_count` int(10) DEFAULT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `auto_vibration` varchar(50) NOT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `display_close` varchar(80) NOT NULL");
+@mysql_query("ALTER TABLE `".$wpdb->rspro."`ADD `price` varchar(80) NOT NULL");	
+	
+	
 }
 if($wpdb->get_var("show tables like '". $wpdb->rspro_media ."'") != $wpdb->rspro_media) {
 	// Slide Tables
