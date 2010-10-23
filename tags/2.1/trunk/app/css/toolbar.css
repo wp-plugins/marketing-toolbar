@@ -1,0 +1,33 @@
+#ssovit-inline-toolbar-wrapper { padding:0;width:100%;height:auto; z-index:1000 }
+#ssovit-inline-toolbar-close:hover { background-color:#FFFFFF}
+
+#ssovit-inline-toolbar { padding:5px;color:#FFF; font-size:13px; font-family:Tahoma, Geneva, sans-serif; }
+#ssovit-inline-toolbar a { color:#FFF; text-decoration:none; }
+#ssovit-inline-toolbar a:hover { color:#FFF; text-decoration:underline; }
+#ssovit-inline-toolbar p { margin:0; padding:0; }
+#ssovit-inline-toolbar p+p { margin:3px 0 0; }
+#ssovit-col1 { float:left; width:40%; display:table-row; text-align:left !important; }
+#ssovit-col2 { float:left; width:25%; display:block; text-align:left !important; }
+#ssovit-col3 { float:right; width:35%; display:block; text-align:left !important; }
+
+
+#sssovit-col3 label { padding:0 5px !important; display:inline-block !important; margin:0 !important; float:none !important; }
+#ssovit-col3 input[type="text"] { display:inline-block; -moz-border-radius:8px; width:24%; }
+
+
+.ssovit-clear { clear:both; }
+.ssovit-cols { display:table-cell; vertical-align:top; }
+.ssovit-cols+.ssovit-cols { padding:0 0 0 5px }
+#ssovit-product-image img { margin:0; }
+#ssovit-product-action-linkwrap { text-align:center; }
+#ssovit-product-action-link { display:inline-block; font-weight:bold; font-size:14px; line-height:40px; }
+#ssovit-product-title { color:#FFF; font-weight:bold; font-size:12px; text-transform:uppercase; margin:0; }
+#ssovit-product-price { color:#FC0; }
+#ssovit-product-description { color:#FC0; padding:0 15px 0 0; color:#FFF; font-size:11px; }
+#ssovit-product-action { color:#FC0; padding:0 15px 0 0; color:#FFF; font-size:11px; }
+#ssovit-product-aweber p { display:inline; margin:0 !important; padding:0 !important;}
+#ssovit-product-aweber { padding:10px 0 0 0;}
+#ssovit-product-aweber-text { padding:10px 0 0 0; }
+#ssovit-product-aweber label { padding:0 5px !important; display:inline-block !important; margin:0 !important; float:none !important; }
+#ssovit-product-aweber input[type="text"] { display:inline-block; width:110px; }
+#ssovit-product-aweber input[type="submit"] { display:inline-block; color:#000000; top:auto; bottom:auto; left:auto; right:auto; -moz-border-radius:15px 15px 15px 15px;background:#FFF;    }
