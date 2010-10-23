@@ -44,3 +44,6 @@ In admin, there is exclude post. Enter page/post id of pages separated by comma(
 Its initial version, you have to do some manual change in this version
 = 2.0 =
 Its fully automated and professional.
+
+= 2.1 =
+Auto Upgrade featued is added for Previous toolbar plugin
